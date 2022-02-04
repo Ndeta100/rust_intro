@@ -10,4 +10,12 @@ println!("My name is {} and I am {} years old", name, age);
 age=22;
 
 println!("My name is {} and I am {} years old", name, age);
+
+// Define a constant
+const ID: i32=0010;
+println!("ID: {}", ID);
+
+// Assigning multiple vars
+let (my_name, my_age) =("Ndeta", 22);
+println!("{} is {}", my_name, my_age);
 }
