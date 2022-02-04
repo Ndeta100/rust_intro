@@ -4,6 +4,10 @@
 
 pub fn run(){
 let name="ndeta";
+let mut age=67;
+println!("My name is {} and I am {} years old", name, age);
 
-println!("My name is {}", name)
+age=22;
+
+println!("My name is {} and I am {} years old", name, age);
 }
