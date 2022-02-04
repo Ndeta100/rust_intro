@@ -10,5 +10,7 @@ pub fn run(){
     println!("{0} is from {1} and {0} likes to {2}", "John", "Mars", "code");
 
     // Named arguments
-    println!("{name} likes to play {activity}", name="Ndeta", activity="Football")
+    println!("{name} likes to play {activity}", name="Ndeta", activity="Football");
+    // placeholder trait
+    println!("Binary:{:b} Hex:{:x} Octal:{:0}", 10, 10, 10)
 }
