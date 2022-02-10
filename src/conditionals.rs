@@ -12,4 +12,9 @@ if age>=21 && check_id || know_person_of_age{
 }else{
     println!("I will need to see your id");
 }
+
+// Short hand if 
+let is_of_age=if age>=21 {true} else {false};
+println!("is of age: {}", is_of_age);
+
 }
